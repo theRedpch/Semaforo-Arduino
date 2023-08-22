@@ -1,3 +1,4 @@
+![image](https://github.com/theRedpch/Semaforo-Arduino/assets/71972224/0883eb8b-b333-4baa-a1c5-e83f7b3aea58)
 # Semaforo-Arduino
 En esta primera clase veremos como crear un semaforo en arduino
 
