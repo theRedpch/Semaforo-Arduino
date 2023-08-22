@@ -4,6 +4,7 @@
 # Semaforo-Arduino
 En esta primera clase veremos como crear un semaforo en arduino
 
+
 ## Variables
 
     int led_rojo = 11;
@@ -11,7 +12,27 @@ En esta primera clase veremos como crear un semaforo en arduino
     int led_verde = 13;
     int boton = 2;
 
-## Variables
+
+---------------------------------------------------------------------------------
+
+
+## Led Rojo
+    digitalWrite(led_rojo, HIGH);    #led rojo encendido
+    digitalWrite(led_rojo, LOW);     #led rojo apagado
+
+## Led Amarillo
+    digitalWrite(led_amarillo, HIGH);    #led amarillo enendido
+    digitalWrite(led_amarillo, LOW);    #led amarillo apagado
+
+## Led Verde
+    digitalWrite(led_verde, HIGH);    #led verde enendido   
+    digitalWrite(led_verde, LOW);    #led verde apagado
+
+---------------------------------------------------------------------------------
+
+
+
+## setup
  
     void setup() {
       pinMode(led_rojo, OUTPUT);
